@@ -15,7 +15,7 @@ from telegram.ext import (
 )
 
 # ==== НАСТРОЙКИ ====
-TOKEN = os.getenv("BOT_TOKEN", "ВСТАВЬ_СЮДА_ТОКЕН_ОТ_BOTFATHER")
+TOKEN = os.getenv("BOT_TOKEN", "8972359654:AAErw32yM2IrmSZkKEwXl6yM6woiQV7OnWg")
 DB_PATH = os.path.join(os.path.dirname(__file__), "bot.db")
 PER_PAGE = 5
 
